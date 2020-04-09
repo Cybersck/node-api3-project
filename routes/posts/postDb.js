@@ -1,4 +1,4 @@
-const db = require('../data/dbConfig.js');
+const db = require('../../data/dbConfig.js');
 
 module.exports = {
   get,
@@ -17,7 +17,7 @@ function getById(id) {
     .where({ id })
     .first();
 }
-
+ 
 function insert(post) {
   return db('posts')
     .insert(post)
