@@ -2,9 +2,9 @@
   "name": "node-api3-project",
   "version": "1.0.0",
   "description": "Node API 3 Project",
-  "main": "/bin/www",
+  "main": "./bin/www",
   "scripts": {
-    "server": "nodemon /bin/www"
+    "server": "nodemon ./bin/www"
   },
   "repository": {
     "type": "git",
